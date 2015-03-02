@@ -1,20 +1,20 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "https://anwarshah.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
+  title: My Computing Diary
   avatar: avatar.png
-  gravatar: # email md5 hash
+  gravatar: d10030254a922e6d2ae120d04ae119ed
   description: "A website with blog posts and pages" # used by search engines
   
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <h1>My Computing Diary</h1>
+     <p>A self-documenting blog for hints, findings and tips of everyday computing</p>
      
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
   
@@ -26,19 +26,19 @@ theme:
   dribbble: 
   facebook: 
   flickr: 
-  github: "rohanchandra/type-theme"
-  google_plus: 
+  github: "AnwarShah/anwarshah.github.io"
+  google_plus: "+MohammadAnwarShah"
   instagram: 
   linkedin:  # full URL
   pinterest: 
   reddit: 
   soundcloud: 
-  stack_exchange:  # full URL
   steam: 
   tumblr: 
-  twitter: "twitter"
+  twitter: "mdanwarshah"
   wordpress: 
   youtube: 
+  stack_exchange:  "http://stackexchange.com/users/1031680/anwar"
   
   # Scripts
   google_analytics: # tracking id, e.g. "UA-000000-01"
