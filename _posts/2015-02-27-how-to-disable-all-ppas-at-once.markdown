@@ -20,32 +20,3 @@ You can actually do this same thing quite easily. Follow this -
         sudo sed -i 's/^deb/#deb/' *
         {% endhighlight %}
 Voila!
-
-###Download Wordpress guide
-Download the guide for [Installing Wordpress here]({{site.url}}/assets/installing-wordpress.pdf) 
-
-###This is a python code. Never mind!
-
-{% highlight python linenos%}
-class Animal(object):
-    def __init__(self, catagory, name, age):
-        self.catagory = catagory
-        self.name = name
-        self.age = age
-{% endhighlight %}
-
-###And this is java
-
-{%highlight java linenos%}
-public class Animal{
-    private String catagory; 
-    private String name;
-    private int age;
-
-    public Animal(catagory, name, age){
-        this.catagory = catagory;
-        this.name = name;
-        this.age =age;
-    }    
-}
-{%endhighlight%}
