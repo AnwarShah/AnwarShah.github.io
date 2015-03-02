@@ -31,3 +31,29 @@ while (j < 20) {
     console.log(j);
 }
 {% endhighlight %}
+
+###This is a python code. Never mind!
+
+{% highlight python linenos%}
+class Animal(object):
+    def __init__(self, catagory, name, age):
+        self.catagory = catagory
+        self.name = name
+        self.age = age
+{% endhighlight %}
+
+###And this is java
+
+{%highlight java linenos%}
+public class Animal{
+    private String catagory; 
+    private String name;
+    private int age;
+
+    public Animal(catagory, name, age){
+        this.catagory = catagory;
+        this.name = name;
+        this.age =age;
+    }    
+}
+{%endhighlight%}
