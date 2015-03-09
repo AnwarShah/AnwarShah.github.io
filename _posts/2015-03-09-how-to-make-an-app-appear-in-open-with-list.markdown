@@ -3,6 +3,7 @@ layout: post
 date: 2015-03-09
 title: How to make an application appear in OpenWith list in Ubuntu
 catagories: Ubuntu
+author: Mohammad Anwar Shah
 ---
 
 Ubuntu's latest releases make it difficult to add an application in Nautilus's OpenWith list. However, We could make an application appear there anyway. Follow 
