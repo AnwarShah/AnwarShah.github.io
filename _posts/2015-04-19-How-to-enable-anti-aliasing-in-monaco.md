@@ -50,7 +50,7 @@ Below is a picture after successfully enabling anti-aliasing for Monaco. Have fu
 
 If you want to know more, check out [ArchLinux's fontconfig wiki page][1]
 
-As an bonus, Take a look at [this page][4] for suggestion on beautiful monospace fonts. 
+As a bonus, Take a look at [this page][4] for suggestion on beautiful monospace fonts! 
 
 [1]:https://wiki.archlinux.org/index.php/Font_configuration
 [monaco]:http://en.wikipedia.org/wiki/Monaco_%28typeface%29
