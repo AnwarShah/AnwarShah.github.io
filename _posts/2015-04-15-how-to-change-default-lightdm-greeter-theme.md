@@ -41,8 +41,12 @@ Go to `/usr/share/xgreeters/` directory and check what greeter themes are availa
 ##Changing further in lightdm-gtk-greeter
 Lightdm gtk greeter has several alternative variants. If you use gtk-greeter, you can configure theme by using this command in a terminal
 
+{% highlight bash %}
+
     sudo update-alternatives --config lightdm-gtk-greeter-config-derivative
-    
+
+{% endhighlight %}
+
 For a full tutorial on lightdm, check [Ubuntu-wiki page on Lightdm][3]
     
 

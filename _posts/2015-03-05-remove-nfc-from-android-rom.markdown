@@ -10,14 +10,16 @@ your Android Rom. Of course, You need root access to do this.
 
 Files to remove:
 
-        /system/etc/nfcee_access.xml
-        /system/etc/permissions/android.hardware.nfc.xml
-        /system/etc/permissions/com.cyanogenmod.nfc.enhanced.xml
-        /system/lib/hw/nfc.default.so
-        /system/lib/libnfc.so
-        /system/lib/libnfc_jni.so
-        /system/lib/libnfc_ndef.so
-        /system/app/nfc.apk
-        /system/app/tags.apk
+{% highlight bash %}
+/system/etc/nfcee_access.xml
+/system/etc/permissions/android.hardware.nfc.xml
+/system/etc/permissions/com.cyanogenmod.nfc.enhanced.xml
+/system/lib/hw/nfc.default.so
+/system/lib/libnfc.so
+/system/lib/libnfc_jni.so
+/system/lib/libnfc_ndef.so
+/system/app/nfc.apk
+/system/app/tags.apk
+{% endhighlight %}
 
 ###<span style="color: red;">WARNING</span>: This Guide is not for everybody!

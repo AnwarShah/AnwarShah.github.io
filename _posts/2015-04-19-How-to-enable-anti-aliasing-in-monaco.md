@@ -17,30 +17,34 @@ First create a file in **.config/fontconfig/conf.d/** directory with **20-no-emb
 
 Then put the below lines in the file to disable embedded bitmaps for all fonts.(If you don't want to disable for all fonts, but for some fonts, skip this to the next)
 
-        <?xml version="1.0"?>
-        <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
-        <fontconfig>
-          <match target="font">
-            <edit name="embeddedbitmap" mode="assign">
-              <bool>false</bool>
-            </edit>
-          </match>
-        </fontconfig>
-            
+{% highlight xml %}
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+  <match target="font">
+    <edit name="embeddedbitmap" mode="assign">
+      <bool>false</bool>
+    </edit>
+  </match>
+</fontconfig>
+{% endhighlight %}
+
 (Alternative) If you don't want to disable for all fonts, but only for a specific font, you should instead use these 
 
-        <?xml version="1.0"?>
-        <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
-        <fontconfig>
-            <match target="font">
-                <test qual="any" name="family">
-                   <string>Monaco</string>
-                </test>
-                <edit name="embeddedbitmap">
-                    <bool>false</bool>
-                </edit>
-            </match>
-        </fontconfig>
+{% highlight xml %}
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+    <match target="font">
+        <test qual="any" name="family">
+           <string>Monaco</string>
+        </test>
+        <edit name="embeddedbitmap">
+            <bool>false</bool>
+        </edit>
+    </match>
+</fontconfig>
+{% endhighlight %}
 
 Below is a picture after successfully enabling anti-aliasing for Monaco. Have fun!
 
