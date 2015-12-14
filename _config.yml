@@ -41,7 +41,7 @@ theme:
   stack_exchange:  "http://stackexchange.com/users/1031680/anwar"
   
   # Scripts
-  google_analytics: # tracking id, e.g. "UA-000000-01"
+  google_analytics: "UA-71364561-1"
   disqus_shortname:
   
   # Localization strings
