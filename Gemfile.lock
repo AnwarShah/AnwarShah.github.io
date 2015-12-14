@@ -1,5 +1,5 @@
 GEM
-  remote: http://0.0.0.0:8808/
+  remote: file:/media/windows+devs/dev_tools/ruby-gems-repo/
   specs:
     blankslate (2.1.2.4)
     celluloid (0.16.0)
