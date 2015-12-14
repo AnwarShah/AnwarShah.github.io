@@ -42,7 +42,7 @@ theme:
   
   # Scripts
   google_analytics: "UA-71364561-1"
-  disqus_shortname:
+  disqus_shortname: "AnwarShah"
   
   # Localization strings
   str_follow_on: "Follow on"
