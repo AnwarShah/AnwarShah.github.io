@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diving inside Ruby Blocks-1
-catagory: Ruby 
+categories: Ruby 
 ---
 New Ruby users often become confused by it's Block. So was I. Today, I determined to dive into these block thingy once more. And Alhamdulillah, I want to share with you the knowledge. Mostly, for myself.
 

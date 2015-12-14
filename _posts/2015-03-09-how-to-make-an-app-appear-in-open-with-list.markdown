@@ -2,7 +2,7 @@
 layout: post
 date: 2015-03-09
 title: How to make an application appear in OpenWith list in Ubuntu
-catagories: Ubuntu
+categories: Ubuntu
 author: Mohammad Anwar Shah
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to enable anti-aliasing for Monaco font in Ubuntu
-catagories: anti-aliasing, monaco, ubuntu, font-config
+categories: anti-aliasing, monaco, ubuntu, font-config
 ---
 
 [Monaco][monaco] was the standard monospace typeface installed by default in Apple computers until it is replaced by [Menlo][menlo] in Mac OSX 10.6 (*Snow Leopard*) . But, This font, when used in Ubuntu, renders pixelated in small sizes (to be accurate, sizes less that 14px). This is quiet dissapointing since it is a very nice font. Below is a picture of the problem.

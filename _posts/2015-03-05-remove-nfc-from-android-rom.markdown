@@ -2,7 +2,7 @@
 layout: post
 date: 2015-03-05
 title: How to remove NFC completely from Android Rom
-catagories: Android
+categories: Android
 author: Mohammad Anwar Shah
 ---
 If you want to get rid of battery-hungry nfc completely, remove these files from

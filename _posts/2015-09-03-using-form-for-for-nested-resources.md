@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using form_for for nested resources in rails
-catagories: ruby-on-rails, rails-4
+categories: ruby-on-rails
 ---
 
 Using object with `form_for` in rails in really nice things. But, it can get tricky when we need a form for nested resources. For example, we could have a `@result` resource, inside a `@course` resource. What should be done in these cases? 

@@ -2,7 +2,7 @@
 layout: post
 title: How to disable all the PPAs at once
 date : 2015-02-27 23:07:00
-catagories: Ubuntu, Linux
+categories: Ubuntu, Linux
 author: Mohammad Anwar Shah
 permalink: how-to-disable-all-repo-at-once.html
 ---

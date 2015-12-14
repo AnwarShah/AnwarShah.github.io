@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to change the default font using font-config
-catagories: anti-aliasing, ubuntu, font-config
+categories: anti-aliasing, ubuntu, font-config
 ---
 
 If you want to replace the default font used for a certain family such as **sans-serif** or **monospace** or just want to replace every occurrence of a font, you need to deal with **font-config**. This is very simple.

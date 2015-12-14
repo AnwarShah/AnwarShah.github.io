@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to make Firefox's zoom settings persistent or saved
-catagories: Firefox, Ubuntu
+categories: Firefox, Ubuntu
 ---
 
 When you make changes to a site's zoom settings, that change will not be saved for all pages of that particular site and, of course not across all the other sites too. This is particularly problemetic for site's whose has low sized fonts such as Django's offline documenation site. You have to zoom everytime  you navigate around sites.

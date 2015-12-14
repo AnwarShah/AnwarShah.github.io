@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to configure lightdm greeter theme
-catagories: Ubuntu, Unity, Lightdm
+categories: Ubuntu, Unity, Lightdm
 ---
 
 Ubuntu uses [Lightdm][1] as the display manager. Ubuntu also uses it's default lightdm-greeter (The UI that is displayed as User Login Page) which is named **unity-greeter**. 
