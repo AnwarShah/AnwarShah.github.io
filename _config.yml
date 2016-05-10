@@ -1,84 +1,19 @@
-# SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://anwarshah.github.io" # the base hostname & protocol for your site
+name: My Computing Diary
+description: "A self-documenting blog for hints, findings and tips of everyday computing"
+meta_description: "A blog with everything related with Computing"
 
-# THEME-SPECIFIC CONFIGURATION
-theme:
-  # Meta
-  title: My Computing Diary
-  avatar: avatar.png
-  gravatar: d10030254a922e6d2ae120d04ae119ed
-  description: "A website with blog posts and pages" # used by search engines
-  
-  # Header and footer text
-  header_text: >
-     <h1>My Computing Diary</h1>
-     <p>A self-documenting blog for hints, findings and tips of everyday computing</p>
-     
-  footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
-  
-  # Icons
-  rss: false
-  email_address: # full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket: 
-  dribbble: 
-  facebook: 
-  flickr: 
-  github: "AnwarShah/anwarshah.github.io"
-  google_plus: "+MohammadAnwarShah"
-  instagram: 
-  linkedin:  # full URL
-  pinterest: 
-  reddit: 
-  soundcloud: 
-  steam: 
-  tumblr: 
-  twitter: "mdanwarshah"
-  wordpress: 
-  youtube: 
-  stack_exchange:  "http://stackexchange.com/users/1031680/anwar"
-  
-  # Scripts
-  google_analytics: "UA-71364561-1"
-  disqus_shortname: "AnwarShah"
-  
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next: "Next"
-  str_prev: "Prev"
-  str_continue_reading: "Continue reading"
-  
-  # Colors, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
-
-# BUILD SETTINGS
 markdown: kramdown
 highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: :compressed
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'https://anwarshah.github.io'
+google_analytics: 'UA-71364561-1'
+gems: [jekyll-paginate]
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
+# Details for the RSS feed generator
+url:            'https://anwarshah.github.io'
+author:         'Anwar Shah'
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-redcarpet:
-    extensions: ["fenced_code_blocks"]
+theme:
+  gravatar: d10030254a922e6d2ae120d04ae119ed
