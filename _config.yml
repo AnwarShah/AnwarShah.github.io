@@ -3,7 +3,7 @@ description: "A self-documenting blog for hints, findings and tips of everyday c
 meta_description: "A blog with everything related with Computing"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
