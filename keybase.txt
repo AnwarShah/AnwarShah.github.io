@@ -1,0 +1,69 @@
+ ==================================================================
+https://keybase.io/anwarshah
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://anwarshah.github.io
+  * I am anwarshah (https://keybase.io/anwarshah) on keybase.
+  * I have a public key with fingerprint B9B1 9173 4AFD 68CE 5946  5A4A A043 74D7 26A4 C0CB
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010152e8c4019fdda68773378cf34d3a7ae2adf89003cf152224d5a70b7d0c024c790a",
+            "fingerprint": "b9b191734afd68ce59465a4aa04374d726a4c0cb",
+            "host": "keybase.io",
+            "key_id": "a04374d726a4c0cb",
+            "kid": "010152e8c4019fdda68773378cf34d3a7ae2adf89003cf152224d5a70b7d0c024c790a",
+            "uid": "6a4f58bdfe694b75c6e938ec5093bc19",
+            "username": "anwarshah"
+        },
+        "service": {
+            "hostname": "anwarshah.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1486103350,
+    "expire_in": 157680000,
+    "prev": "dbb0c58d230d953f9265a95dc35feb091a3d5751e8c5de641ec58b46ef555b39",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMIoAnicrZJ9aE5RHMefMcM0jYw/JHaHvAzn3nPPfXmMRISkJpakPZ23+zy3zXMf
+995ns62N5mUyRLTJS1Mi5WXaMmphRmJWFrU/vDYSShM1CnmcO/wjfzr/nM6v7/dz
+vr/fObezhoYy064fd968/NTopN2/2ZQMrT+cp1VJxGEVUrhKKuGDGy9l3PMjJTaT
+whKQgYwUblAVyKbFGNYMXYdQN6gFVQaxjrmCmWWYAEBqCamiqAxhHRCdAQoUleom
+wFK+ZNnxKHcTrh33BZaYRDZlHarYYppBOTJVDWEVY6BCXWW6omGVAkqEMeZ4gUOE
+I9jjc21H1MQhMhjvH/r/nDs5iBN4CxmEWVwzVaIjqnETGpwiYEJCZTMQetyN4008
+SBUvx64XwzGpOl8S5TKb8mCyQSt/S+ZGbT+WJL/6SriO71CnVAhivp/wwgHAr0gE
+jnJOIr9ZEWLHmZincJRx17OduBSWhZL6dgCXVUOTAYQI5Et8S8J2ecQOFEjXDCBW
+cA8vE0hGCKDIYAoEzETQMhXxCCZiFCKLE2DKGDKkI1mMETGuqbJo2CCqxi2EEIFB
+1x7fHHeksC5i4qhAenY0jv2ky6Xqzo6N6aG0zFDGsCHBPwtljsz+8/uKtg9PRc7Y
+uycMGfvMffL+dE5B3y774paBnjt7Xryqq/lc3Kl1FWTrueUt72egcbXN9X0XJoya
+/Cn7a+6DtdPR2tLOsropJVm1t86OfnO+vr80FVo3NUs6PmZrZsHEDG958tLV6uan
+V77kSMd2FH9e1Ng/7G3Tse7zVnft7ZVdP07sa17Rfyh9bMONu/zt0V0nWs9cm7Ns
+dvu38QPpj71ZC5uW7qvKfXDw5aru/tWwM6U82VZx+X7RiAMLPtQ8TG0YnjZzWrit
+4crrj71FV2uWFXZMamtta8FHdhYTq440rG+fv/eenfex+hx6vjg6u7dn4Gt4SW3j
+qTUv3s37vr+QniSvKx/1dedXpp5V/AQdlkyd
+=4Ygi
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/anwarshah
+
+==================================================================
+
