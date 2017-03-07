@@ -17,3 +17,6 @@ author:         'Anwar Shah'
 
 theme:
   gravatar: d10030254a922e6d2ae120d04ae119ed
+
+# Build settings. Found in SO to fix multi-categories
+permalink: /:categories/:title/

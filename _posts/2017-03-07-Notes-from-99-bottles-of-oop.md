@@ -1,12 +1,16 @@
 ---
 layout: post
 title: Notes from 99 bottles of OOP
-categories: oop ruby clean-code notes
+categories: [oop, ruby, clean-code, notes]
+permalink: /2017/03/07/notes-from-99-bottles-of-oop/
 ---
 This is a post of notes I am taking from the book, **99 bottles of OOP** by Sandi Metz and Katrina Owen.
 I'm hoping that I can finish it timely and also complete the post with all notes.
+This post will have notes only from Chapter 1 (Shameless Green)
 
 ## Chapter 1: Shameless Green
+{: style="text-align: center;" }
+
 4 solutions are discussed for 99 bottles of bear problem. _(I'm not including the solutions here and discussions
 specific to them )_
 
@@ -16,6 +20,7 @@ specific to them )_
 4. Shameless Green
 
 #### Problems with _Incomprehensibly Concise_
+{: style="text-align: center;" }
 
 ##### Consistency
 
@@ -33,6 +38,7 @@ specific to them )_
   - Good naming is hard, but also worth the effort.
 
 #### Messages vs Methods
+{: style="text-align: center;" }
 
 Although we used to think about `messages` as `methods`, the authors separated between the two.
 
@@ -43,8 +49,11 @@ Although we used to think about `messages` as `methods`, the authors separated b
   OO mindset.
 
  ***Methods are defined, but messages are sent***
+{: style="text-align: center;" }
+
 
 #### Juding Code: Three basic questions to help
+{: style="text-align: center;" }
 
 The best way to judge code is by comparing its *value* to its *cost*. while it's difficult to get exact
 figure for value and cost, we can ask three questions to find insight about the potential expense of
@@ -56,19 +65,27 @@ a slice of code.
 
  ***Code is easy to understand when it clearly reflects the problem it's solving and thus openly
   exposes that problem's domain.***
+{: style="text-align: center;" }
+
 
 #### Problems with _Speculatively General_
+{: style="text-align: center;" }
+
 
 _The authors then brought another solution which was relatively easier to understand but uses
 more levels of indirections between actual works. The indirections made whole picture incomprehensible
 to grasp all at once._
 
 ***You must resist being clever for its own sake.*** 
+{: style="text-align: center;" }
+
 
 If you are capable of conceiving and implementing a complex solution,
 it is incumbent upon you to accept the ***harder*** task and write simpler code.
 
 #### Problems with _Concretely Abstract_
+{: style="text-align: center;" }
+
 
 The next solution authors brought was characterized by many small methods and completely DRY-ed
 codes. But it has its own problems.
@@ -97,10 +114,13 @@ for future changes.
 
 ***When you name a method after its current implementation, you could never change that
 internal implementation without ruining the method name.***
+{: style="text-align: center;" }
 
 You should name method not after what they do, but after what they mean in your problem domain.
 
 #### On _Shameless Green_
+{: style="text-align: center;" }
+
 
 When you dry out duplication or create a method to name a bit of code, you add a level of indirection
 that make it more abstract. In theory, this abstractions make code easier to understand and change, but
@@ -109,6 +129,7 @@ it practice they often acheive the opposite.
 The biggest challenge is to determine when to stop abstracting.
 
 #### Evaluating Code based on facts
+{: style="text-align: center;" }
 
 Three metrices
 
@@ -119,8 +140,11 @@ Three metrices
 `FLOG` is a ruby companion based on ABC.
 
 ***Checking metrics regularly will keep you humble and improve your code.***
+{: style="text-align: center;" }
+
 
 #### Chapter Summary
+{: style="text-align: center;" }
 
 Experience programmers tend to write complex code because that seems natural to them. However,
 there is something beyond complexity.
