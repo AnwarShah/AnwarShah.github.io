@@ -6,7 +6,7 @@ categories: oop ruby clean-code notes
 This is a post of notes I am taking from the book, **99 bottles of OOP** by Sandi Metz and Katrina Owen.
 I'm hoping that I can finish it timely and also complete the post with all notes.
 
-##Chapter 1: Shameless Green
+## Chapter 1: Shameless Green
 4 solutions are discussed for 99 bottles of bear problem. _(I'm not including the solutions here and discussions
 specific to them )_
 
@@ -15,24 +15,24 @@ specific to them )_
 3. Concretely Abstract
 4. Shameless Green
 
-####Problems with _Incomprehensibly Concise_
+#### Problems with _Incomprehensibly Concise_
 
-#####Consistency
+##### Consistency
 
    The style of conditionals is incosistent. Sometimes used ternary sometimes `if` at end.
 
-#####Duplication
+##### Duplication
 
   - Duplication of both data and logic was there.
   - Itentifying duplication of logic is harder. The maximum confusion can be *acheived* by using the logic in interpoted string
 
-#####Names
+##### Names
 
   - No uses of names. Name is the identification of concept in the problem.
   - Code clarity is built upon good names.
   - Good naming is hard, but also worth the effort.
 
-####Messages vs Methods
+#### Messages vs Methods
 
 Although we used to think about `messages` as `methods`, the authors separated between the two.
 
@@ -44,7 +44,7 @@ Although we used to think about `messages` as `methods`, the authors separated b
 
  ***Methods are defined, but messages are sent***
 
-####Juding Code: Three basic questions to help
+#### Juding Code: Three basic questions to help
 
 The best way to judge code is by comparing its *value* to its *cost*. while it's difficult to get exact
 figure for value and cost, we can ask three questions to find insight about the potential expense of
@@ -57,7 +57,7 @@ a slice of code.
  ***Code is easy to understand when it clearly reflects the problem it's solving and thus openly
   exposes that problem's domain.***
 
-####Problems with _Speculatively General_
+#### Problems with _Speculatively General_
 
 _The authors then brought another solution which was relatively easier to understand but uses
 more levels of indirections between actual works. The indirections made whole picture incomprehensible
@@ -68,7 +68,7 @@ to grasp all at once._
 If you are capable of conceiving and implementing a complex solution,
 it is incumbent upon you to accept the ***harder*** task and write simpler code.
 
-####Problems with _Concretely Abstract_
+#### Problems with _Concretely Abstract_
 
 The next solution authors brought was characterized by many small methods and completely DRY-ed
 codes. But it has its own problems.
@@ -100,7 +100,7 @@ internal implementation without ruining the method name.***
 
 You should name method not after what they do, but after what they mean in your problem domain.
 
-####On _Shameless Green_
+#### On _Shameless Green_
 
 When you dry out duplication or create a method to name a bit of code, you add a level of indirection
 that make it more abstract. In theory, this abstractions make code easier to understand and change, but
@@ -108,7 +108,7 @@ it practice they often acheive the opposite.
 
 The biggest challenge is to determine when to stop abstracting.
 
-####Evaluating Code based on facts
+#### Evaluating Code based on facts
 
 Three metrices
 
@@ -120,7 +120,7 @@ Three metrices
 
 ***Checking metrics regularly will keep you humble and improve your code.***
 
-####Chapter Summary
+#### Chapter Summary
 
 Experience programmers tend to write complex code because that seems natural to them. However,
 there is something beyond complexity.
