@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Long awaited solution to `vblank wait timed out on crtc` bug on Intel 965 chipsets
+title: Long awaited solution to "vblank wait timed out on crtc" bug on Intel 965 chipsets found
 categories: [linux, kernel, bug]
 ---
 
@@ -22,6 +22,6 @@ Then a `sudo update-grub` command will update the grub config file used for boot
 
 Here is the reports where solution is reported -
 
-- https://bugs.freedesktop.org/show_bug.cgi?id=96441
-- https://bugzilla.redhat.com/show_bug.cgi?id=1342755
-- https://bugs.freedesktop.org/show_bug.cgi?id=93782#c40
+- [https://bugs.freedesktop.org/show_bug.cgi?id=96441](https://bugs.freedesktop.org/show_bug.cgi?id=96441)
+- [https://bugzilla.redhat.com/show_bug.cgi?id=1342755](https://bugzilla.redhat.com/show_bug.cgi?id=1342755)
+- [https://bugs.freedesktop.org/show_bug.cgi?id=93782#c40](https://bugs.freedesktop.org/show_bug.cgi?id=93782#c40)
