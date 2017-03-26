@@ -20,3 +20,6 @@ theme:
 
 # Build settings. Found in SO to fix multi-categories
 permalink: /:categories/:title/
+
+gems:
+  - jekyll-seo-tag
