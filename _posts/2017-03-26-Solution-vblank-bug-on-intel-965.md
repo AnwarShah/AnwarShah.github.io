@@ -2,6 +2,7 @@
 layout: post
 title: Long awaited solution to "vblank wait timed out on crtc" bug on Intel 965 chipsets found
 categories: [linux, kernel, bug]
+permalink: /2017/03/26/solution-to-vblank-bug/
 ---
 
 The long awaited notorious `vblank wait timed out on crtc` bug has finally got some working solution. Thanks to all users across the globe who constantly tested various solutions. This bug hangs the system for several seconds when user tries to switch virtual consoles or when starts playing a video file.
